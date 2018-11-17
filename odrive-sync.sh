@@ -1,11 +1,10 @@
 #!/bin/bash
 
-### Script for ODRIVE ###
+### commands for ODRIVE ###
+# Link: https://docs.odrive.com/docs/odrive-cli
 
-<<COMMENT
-    This is to automate odrive syncing of multiple
-    files destributed inside folders.
-COMMENT
+# This is to automate odrive syncing of multiple
+# files destributed inside of folders.
 
 
 ## Folder
