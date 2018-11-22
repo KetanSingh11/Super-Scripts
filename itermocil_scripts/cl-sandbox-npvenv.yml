@@ -1,0 +1,15 @@
+windows:
+  - name: local-sandbox
+    root: /Users/ketsingh/GITHUB_REPOS/Sandboxed_Repos
+    layout: even-vertical
+    panes:
+      - name: 'npvenv_1'
+        commands:
+          - cd platform-core
+          - source npvenv/bin/activate
+          - pwd
+      - name: 'npvenv_2'
+        commands:
+          - cd platform-core
+          - source npvenv/bin/activate
+          - pwd
