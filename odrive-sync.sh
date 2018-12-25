@@ -1,13 +1,13 @@
 #!/bin/bash
 
-### commands for ODRIVE ###
+### commands for ODRIVE (Linux/bash) ###
 # Link: https://docs.odrive.com/docs/odrive-cli
 
 # This is to automate odrive syncing of multiple
 # files destributed inside of folders.
 
 
-## Folder
+## Folders (same level/flat)
 for file in *.cloudf;  do odrive sync "$file"; done
 
 ## Files
