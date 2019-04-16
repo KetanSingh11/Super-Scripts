@@ -1,2 +1,1 @@
-# Super-Scripts
-A collection of small, intutive scripts that automate repetitive tasks. #MakeLifeEasy for me :)
+### autosend-linkedin-requests (v1.1.0)
