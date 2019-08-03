@@ -16,3 +16,20 @@ wget -O ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/
 # add to ~/.bashrc
 ~/.git-completion.bash
 ```
+
+- ## Python3 as default python
+```shell script
+alias python='python3'
+alias pip='pip3'
+```
+
+- ## odrive aliases
+```shell script
+alias odrive='python3 "$HOME/.odrive-agent/bin/odrive.py"'
+alias odrivestart='nohup "$HOME/.odrive-agent/bin/odriveagent" > /dev/null 2>&1 &'
+```
+
+- ## sort ls command for hidden files
+```shell script
+alias ll='ls -alFv'
+```
