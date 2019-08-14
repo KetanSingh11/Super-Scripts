@@ -1,5 +1,5 @@
 function get_profile_first_name(){
-    var member_name_class_name = "pv-top-card-section__name inline t-24 t-black t-normal";
+    var member_name_class_name = "inline t-24 t-black t-normal break-words";
     var name_list = document.getElementsByClassName(member_name_class_name);
     
     var profile_name = name_list[0].innerText.trim();
